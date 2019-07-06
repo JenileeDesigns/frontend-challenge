@@ -1,0 +1,118 @@
+*,*:before, *:after {
+ box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  margin:10px;
+  position: relative;
+  width: 375px;
+  }
+
+header {
+  background-color: #3966DA;
+  border-bottom: 1px solid #3966DA;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  position: fixed;
+  height:20px;
+  width: 375px;
+}
+
+/*****Washington&State*****/
+nav {
+  background-color: #3966DA;
+  border-bottom: 1px solid #3966DA;
+  color: white;
+  display: block;
+  font-size: 17px;
+  font-weight: medium;
+  height: 44px;
+  margin-top: 0px;
+  position: absolute;
+  width: 375px;
+  text-align: center;
+}
+
+/*****Bus/Destination/Arrives*****/
+h2 {
+  font-size: 17;
+  font-style: italic;
+  font-weight: normal;
+  text-align: left;
+}
+
+/*****Bus Route Giant Number*****/
+
+h3 {
+  font-size: 22px;
+  font-weight: 900;
+  padding-left: 35px;
+}
+
+div {
+	background-color: #E6F1FE;
+	display: inline-block;
+	width: 375px;
+}
+
+.destination {
+  background-color:#E6F1FE;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-left: 80px;
+}
+
+.direction {
+  background-color:#E6F1FE;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-left: 80px;
+}
+
+.status {
+  background-color:#E6F1FE;
+  color: #02A81E;
+  font-size: 1.25em;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-left: 80px;
+}
+
+.arrival {
+  display: inline-block;
+  background-color:#E6F1FE;
+  padding: 3%;
+  width: 100%;
+}
+
+.mins {
+  background-color:#E6F1FE;
+  font-size: 18;
+  font-weight: light;
+}
+
+.footer {
+  display: inline-block;
+}
+
+.arrow {
+  margin-left:336px;
+  img src="images\7.Arrow_right.png" alt="choose"/>
+}
+
+/*Bus icon in each row*/
+.bus {
+
+}
+
+.content {
+  display: inline-block;
+}
