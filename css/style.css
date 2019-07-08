@@ -1,0 +1,179 @@
+*,*:before, *:after {
+ box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color:black;
+  font-size: 14px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 375px;
+}
+
+header {
+  background-color: #3966DA;
+  color: white;
+  font-size: 17px;
+  height:64px;
+}
+
+.statusbar{
+
+}
+
+nav {
+  padding: 16px;
+}
+
+.fa-chevron-left {
+  display: inline-block;
+}
+
+h1 {
+  display:inline-block;
+  text-align: center;
+  width: 90%;
+}
+
+.fa-bars {
+  float: right;
+}
+
+.search {
+  height: 106px;
+  padding: 15px;
+}
+
+.left {
+  display: inline-block;
+  width: 90%;
+}
+
+.row {
+  height: 50px;
+}
+
+.icon{
+  float: left;
+  padding-left: 19px;
+  padding-right: 11px;
+  padding-top: 15px;
+  text-align: center;
+  width: 20px;
+}
+
+.form {
+  background-color: #F1F1F2; 
+  border: none;
+  border-radius: 10px;
+  color: #8E8E93;
+  float: right;
+  font-size: 17px;
+  height: 26px;
+  margin: 7px;
+  padding:12px;
+  width: 250px;
+}
+
+.right {
+  float: right;
+  padding-top: 28px;
+}
+
+.result_headers {
+  background-color: #e6f1fe;
+  display: inline-block;
+  font-size: 17px;
+  font-style: italic;
+  height: 37px;
+  margin-top: 5px;
+  background-image: url(../images/shadow.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+h2 {
+ font-style: italic;
+ font-size: 17px;
+ display: inline-block;
+ padding-top: 13px;
+ padding-left: 19px;
+}
+
+.results {
+
+}
+
+.bus_row {
+  background-color: #e6f1fe;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 16px;
+}
+
+.number {
+  align-items: center;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: left;
+}
+
+.destination {
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+
+}
+.direction_time {
+  font-weight: 300;
+  text-align: left;
+}
+
+.status {
+  font-weight: 700;
+  color: green;
+  text-transform: uppercase;
+}
+.arrives {
+  align-items: center;
+  color: ;
+  font-weight: 900;
+}
+
+.fa-chevron-right {
+  align-items: center;
+  color: #3966DA;
+  float: right;
+}
+
+footer {
+  background-color: #3966DA;
+  color: white;
+  font-size: 11px;
+  padding: 6px;
+  height: 50px;
+
+}
+
+.bottom_nav {
+  width: 24%;
+  text-align: center;
+  display: inline-block;
+}
+
+.fa-location-arrow {
+  font-size:23px;
+  text-align: center;
+}
+
+.fa-bus {
+  font-size: 23px;
+}
+
+.fa-heart {
+  font-size: 23px;
+}

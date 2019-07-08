@@ -1,73 +1,168 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Washington&State</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,300i,400,400i,500,500i,700,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7a2602fe6d.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     </head>
   <body>
-<!--phone screen header-->
-    <div class="header">
+
+<!--HEADER-->
+    <section class="container">
       <header>
-      <img src="images\1_Mobile_Signal.png">
-        <img src="images\2_Wifi.png">
-        5:00 PM
-        <img src="images\3_battery.png">
-        <img src="images\15_back_arrow icon.png">
+        <div class="statusbar">
+          <img src="images/header.png" alt=status bar/>
+        </div>
+        <nav>
+          <i class="fas fa-chevron-left"></i>
+          <h1>Washington & State</h1>
+          <i class="fas fa-bars"></i>
+        </nav>
       </header>
-    </div>
- <!--app header-->
-     <h1>Washington & State</h1>
-    <img src="images\4_hamburger.png">
-    <img src="images\12_start_here.png">
-    <h2>Work</h2>
-    <img src="images\13_endpoint.png">
-    <h2>Home</h2>
-    <img src="images\6_arrows_switch.png">
-  
-<!--Column Headers-->
-<nav>
-  <ul>
-    <li>Bus</li>
-    <li>Destination</li>
-    <li>Arrives</li>
-  </ul>
-</nav>
 
-<!--Row 1-->
-<section>
-  <img src="images/14_Bus_black.png">
-  <h2>60</h2>
-  <ul>
-    <li>Randolph/Harbor Dr</li>
-    <li>Eastbound  |  5:02pm</li>
-    <li>On Time</li>
-    <li>2 mins</li>
-  </ul>
-  <img src="images/7_arrow_right.png">
-</section>
+<!--ADDRESS INPUT-->
+      <section class="search">
+        <div class="left">
+          <div class="row">
+            <div class="icon">
+            <img src="images/start.png" alt=start icon/>
+            </div>
+            <input class="form" name="Work" type="text">
+          </div> 
+          <div class="row">
+            <div class="icon">
+            <img src="images/end.png" alt=end icon/>
+            </div>
+            <input class="form" name="Home" type="text">
+          </div> 
+        </div>
+        <div class="right">
+          <img src="images/switch.png" alt=switch addresses icon/>
+        </div>
+      </section>
 
-<!--Row 2-->
-<section>
-  <img src="images/14_Bus_black.png">
-  <h2>J14</h2>
-  <ul>
-    <li>103rd/Stony Island</li>
-    <li>Southbound  |  5:05pm</li>
-    <li>On Time</li>
-    <li>5 mins</li>
-  </ul>
-  <img src="images/7_arrow_right.png">
-</section>
+<!--BUS RESULTS-->
+      <div class="result_headers">
+          <h2>Bus</h2>
+          <h2>Destination</h2>
+          <h2>Arrives</h2>
+      </div>
+      <section class="results">
+        <ul class="bus_row">
+          <li class="number">60</li>
+          <li class="destination">Randolph/Harbor Dr<br>
+            <span class="direction_time">
+            Eastbound  |  5:02pm</span>
+            <br>
+            <span class="status"> On Time</span></li>
+          <li class="arrives">2 mins</li>
+          <li><i class="fas fa-chevron-right"></i></li>
+        </ul>
 
-<footer>
-  <ul>
-    <li>Directions</li>
-    <li>Bus Lines</li>
-    <li>Stations</li>
-    <li>Favorites</li>
-  </ul>
-</footer>
-  </body>
-</html>
+        <ul class="bus_row">
+          <li class="number">J14</li>
+          <li class="destination">103rd/Stony Island
+            <br>
+            <span class="direction_time">
+            Southbound  |  5:05pm</span>
+            <br>
+            <span class="status">On Time</span></li>
+          <li class="arrives">5 mins</li>
+          <li><i class="fas fa-chevron-right"></i></li>
+        </ul>
+
+        <ul class="bus_row">
+          <li class="number">124</li>
+          <li class="destination">Navy Pier<br>
+            <span class="direction_time">
+            Eastbound  |  5:07pm</span><br>
+            <span class="status">On Time</span></li>
+          <li class="arrives">7 mins</li>
+          <li><i class="fas fa-chevron-right"></i></li>
+        </ul>
+
+        <ul class="bus_row">
+          <li class="number">151</li>
+          <li class="destination">Devon/Clark<br>
+            <span class="direction_time">
+            Northbound  |  5:10pm</span><br>
+            <span class="status">On Time</span></li>
+          <li class="arrives">10 mins</li>
+          <li><i class="fas fa-chevron-right"></i></li>
+        </ul>
+
+        <ul class="bus_row">
+          <li class="number">124</li>
+          <li class="destination">Navy Pier<br>
+            <span class="direction_time">
+            Southbound  |  5:14pm</span><br>
+            <span class="status">On Time</span></li>
+          <li class="arrives">14 mins</li>
+          <li><i class="fas fa-chevron-right"></i></li>
+        </ul>
+
+        <ul class="bus_row">
+          <li class="number">124</li>
+          <li class="destination">Navy Pier<br>
+            <span class="direction_time">
+            Eastbound  |  5:17pm</span><br>
+            <span class="status">On Time</span></li>
+          <li class="arrives">17 mins</li>
+          <li><i class="fas fa-chevron-right"></i></li>
+        </ul>
+
+        <ul class="bus_row">
+          <li class="number">J14</li>
+          <li class="destination">103rd/Stony Island<br>
+            <span class="direction_time">
+            Southbound  |  5:20pm</span><br>
+            <span class="status">On Time</span></li>
+          <li class="arrives">20 mins</li>
+          <li><i class="fas fa-chevron-right"></i></li>
+        </ul>
+
+        <ul class="bus_row">
+          <li class="number">60</li>
+          <li class="destination">Randolph/Harbor Dr<br>
+            <span class="direction_time">
+            Eastbound  |  5:22pm</span><br>
+            <span class="status"> On Time</span></li>
+          <li class="arrives">22 mins</li>
+          <li><i class="fas fa-chevron-right"></i></li>
+        </ul>
+
+        <ul class="bus_row">
+          <li class="number">124</li>
+          <li class="destination">Navy Pier<br>
+            <span class="direction_time">
+            Southbound  |  5:24pm</span><br>
+            <span class="status"> On Time</span></li>
+          <li class="arrives">24 mins</li>
+          <li><i class="fas fa-chevron-right"></i></li>
+        </ul>
+
+      </section>
+          
+    <footer>
+      <div class="bottom_nav">
+        <i class="fas fa-location-arrow"></i>
+        <p>Directions</p>
+      </div>
+      <div class="bottom_nav">
+        <i class="fas fa-bus"></i>
+        <p>Bus Lines</p>
+      </div>
+      <div class="bottom_nav">
+        <img src="images/stations.png" alt=bus stations icon/>
+        <p>Bus Stations</p>
+      </div>
+      <div class="bottom_nav">
+        <i class="fas fa-heart"></i>
+        <p>Favorites</p>
+      </div>
+    </footer>
+  </section>
+</body>
